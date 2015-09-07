@@ -1,25 +1,85 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>半熟友人</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <meta charset="utf-8">
+    <title>Shadowsocks.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link rel="shortcut icon" href="favicon.png">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">半熟友人</h1>
-      <h2 class="project-tagline">加入首张阿姨表情</h2>
-      <img src="images/ayi_shadiao.jpg"/> 
-    </section>
-
-    <section class="main-content">
-      <p></p>
-    </section>
-
-  
+    <div class="container-narrow">
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="/" title="首页">首页</a></li>
+          <li><a href="/client.html" title="本地客户端下载">客户端</a></li>
+		  <li><a href="/specials.html" title="优惠促销">优惠促销</a></li>
+          <li><a href="/tos.html" title="服务条款">服务条款</a></li>
+          <li><a href="https://portal.shadowsocks.com/link.php?id=6" title="订购链接">订购链接</a></li>
+          <li><a href="https://portal.shadowsocks.com/submitticket.php" title="技术支持">技术支持</a></li>
+        </ul>
+        <h3 class="muted">Shadowsocks</h3>
+      </div>
+      <hr>
+      <div class="jumbotron">
+        <h1>Shadowsocks</h1>
+        <p class="lead">轻量级科学上网姿势，改变您的生活体验！</p>
+        <a class="btn btn-large btn-success" href="https://portal.shadowsocks.com/link.php?id=5">订购服务</a>
+      </div>
+      <hr>
+      <div class="row-fluid marketing">
+        <div class="span6">
+          <h4>支持的客户端</h4>
+          <p>OS X, Windows, Linux, iOS, Android, OpenWRT 路由器等</p>
+          <h4>加密方式</h4>
+          <p>推荐使用 AES-256-CFB 或 RC4-MD5</p>
+        </div>
+        <div class="span6">
+          <h4>服务端</h4>
+          <p>Python, nodejs, golang, C libev, C libuv, erlang, dotcloud 等</p>
+          <h4>声明</h4>
+          <p>本站与开源项目 Shadowsocks 及其开发者无任何关系，
+          开源项目请前往 <a href="https://github.com/clowwindy/shadowsocks">Github</a> 查看更多信息</p>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+        <p>&copy; <a href="https://shadowsocks.com/">Shadowsocks.com</a> -      Cat Networks Hong Kong Limited 使用本站服务请遵守中国大陆以及香港法律</p>
+      </div>
+    </div>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>
